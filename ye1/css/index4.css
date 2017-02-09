@@ -1,0 +1,152 @@
+ul,li,input,body,figure,h1,h2,h3,h4,h5,h6,header,section,footer,input,p,pre{
+    margin: 0;padding:0;list-style: none;
+    font-family:"微软雅黑";
+
+}
+html{
+    font-size: 100px;
+}
+@media screen and (max-width: 375px){
+    html{
+        font-size: 50px;
+    }
+}
+img,input{
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background:#f2f2f2;
+
+}
+.box{
+    width:100%;
+    height:2.94rem;
+    color: #fff;
+    background: #29a6dc;
+}
+
+.denglu{
+    width: 1.6rem;
+    font-size: 26px;
+    margin: 0 auto;
+    padding-top: 0.2rem;
+    text-align: center;
+
+}
+.logo{
+    display: block;
+    width: 2.6rem;
+    margin: 0 auto;
+
+}
+.juzi{
+    width: 5.8rem;
+    color:blue;
+    margin: 1rem auto 0.6rem;
+    font-size: 12px;
+
+}
+.writter{
+    width: 1.35rem;
+    float: right;
+    font-size: 12px;
+
+}
+.sousuo{
+    position: relative;
+}
+input{
+    width: 6.2rem;
+    height:0.88rem;
+    display: block;
+    border-radius: 0.44rem;
+    border:1px solid #3a91fd;
+    margin: 0.5rem auto 0.6rem;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 0.2rem;
+    line-height:0.88rem;
+
+}
+.sousuo img{
+    height:50%;
+    position: absolute;
+    left:1rem;top:0.2rem;
+}
+.zhaohuibox{
+    width:7rem;
+    height:0.64rem;
+    display: block;
+    margin: 0 auto ;
+}
+.password{
+    width:2.5rem;
+    height:0.64rem;
+    display: block;
+    margin: 0 auto ;
+    float: right;
+
+}
+.password:nth-child(2){
+    float: right;
+}
+.icon{
+    height:0.36rem;
+    display: block;
+    float: left;
+}
+.word{
+    width:1.8rem;
+    height:0.36rem;
+    font-size: 12px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+.button{
+    width: 100%;
+    height:0.76rem;
+    display: block;
+    border-radius: 0.38rem;
+    border:none;
+    background:#3abffd;
+    margin: 0.3rem auto 0.3rem;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    cursor: pointer;
+    padding:0;
+    line-height: 0.76rem;
+
+
+}
+.circle{
+    width:0.04rem;height:0.04rem;
+    border-radius: 50%;
+    background:#f2f2f2;
+    position: absolute;
+    left: 0.3rem;top: 0.36rem;
+
+}
+.bottom{
+    width: 5.7rem;
+    margin: 0 auto ;
+    position: relative;
+
+}
+
+.circle2{
+    width:0.04rem;height:0.04rem;
+    border-radius: 50%;
+    background:#f2f2f2;
+    position: absolute;
+    right: 0.3rem;top: 0.36rem;
+
+}

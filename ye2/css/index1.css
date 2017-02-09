@@ -1,0 +1,287 @@
+ul,li,input,body,figure,h1,h2,h3,h4,h5,h6,header,section,footer,input,p,pre{
+    margin: 0;padding:0;list-style: none;
+    font-family:"微软雅黑";
+
+}
+html{
+    font-size: 100px;
+}
+@media screen and (max-width: 375px){
+    html{
+        font-size: 50px;
+    }
+}
+img,input{
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background:#f2f2f2;
+
+}
+/*最上方*/
+.box{
+    width:100%;
+    height:1.4rem;
+    color: #fff;
+    background: #29a6dc;
+}
+.biaotibox{
+    width: 100%;
+    position: relative;
+}
+.xiaojiantou{
+    width: 0.44rem;
+    margin:0.3rem;
+    display: none;
+}
+ .xiaosousuo{
+    width: 0.44rem;
+    margin:0.3rem;
+    position: absolute;
+    top:0;  right:0;
+
+}
+ .liangtouyuan{
+    width: 0.34rem;
+    margin:0.6rem auto 0;
+    position: absolute;
+    left:0;  top:0;  right:0;  bottom: 0;
+
+}
+
+.biaoti{
+    height:50px;
+    position: absolute;
+    margin:0 auto;
+    left:0;  top:0;  right:0;  bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+.biaoti-text{
+    position: absolute;
+    margin: 0.6rem auto 0;
+    left:0;  top:0;  right:0;  bottom: 0;
+    font-size: 12px;
+    text-align: center;
+}
+.banner{
+    width:7.06rem;height:3.84rem;
+    margin: 0 auto ;
+    position: relative;
+
+}
+.banner-after{
+    width:7.06rem;height:2.88rem;
+    border-radius: 3px;
+    border:none;
+    background:url(../images/bookfengmian.jpg);
+    background-size: cover;
+    border:1px solid #fff;
+    margin: 0 auto  ;
+    position: absolute;
+    right: 0; top: 0.58rem; left: 0;
+}
+.banner-before{
+    width:6.7rem; height:3.21rem;
+    border-radius: 0.1875em;
+    border:none;
+    background:url(../images/bookfengmian.jpg);
+    background-size: cover;
+    border:2px solid #fff;
+    margin: 0 auto  ;
+    position: absolute;
+    right: 0; top: 0.42rem; left: 0;
+}
+.huanye{
+    width:0.47rem;
+    margin: 0 auto  ;
+    position: absolute;
+    right: 0; left: 0; bottom: 0;
+}
+.biaoti2box{
+    width:7rem;height:1rem;
+    margin: 0 auto  ;
+
+}
+.biaoti2-top{
+    width:100%;height:0.57rem;
+    display:block;
+
+}
+.biaoti2-top div{
+    width:1.5rem;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+
+}
+.xbook{
+    width:0.3rem;
+    margin-top: 0.1rem;
+    float: left;
+}
+.caise{
+    width:0.18rem;
+    margin-top: 0.3rem   ;
+    float: left;
+}
+.biaoti2-bot{
+    width:10em;
+    float: left;
+    color: #939393;
+    font-size: 12px;
+    text-align: center;
+
+}
+.neirongbox{
+    width:100%;height:4.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+
+}
+.bookbox{
+    width:2.5rem;height:3.6rem;
+    background:url(../images/book-desk-1.png) no-repeat;
+    background-size: contain;
+    margin-top: 0.15rem ;
+    margin-left: 0.4rem ;
+    float: left;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+
+}
+.fengmian span{
+    width:100%;height:0.5rem;
+    display: block;
+    margin: 0 auto ;
+    color: #b6b6b6;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    right: 0;bottom: 0rem;left: 0;
+
+}
+
+.fengmian{
+    width:2.1rem;height:3.75rem;
+    padding-top:2.82rem;
+    border-radius: 2px;
+    border:2px solid #fff;
+    background:url(../images/neko.png) no-repeat;
+    background-size: contain;
+    margin: 0 auto   ;
+    font-size: 12px;
+    position: absolute;
+    right: 0;top:-0.15rem;left: 0;
+}
+.jieshao{
+    width:7rem;height: 2.9rem;
+    border-radius: 0.1875em;
+    background:#fff;
+    margin: 0 auto;
+    margin-top: 0.5em ;
+
+}
+.shumian{
+    width:1.4rem;
+    margin-left:  0.11rem  ;
+    margin-top: 0.21rem   ;
+    margin-bottom:  0.21rem   ;
+    float: left;
+}
+.wenzidakuang{
+    width:70%;
+    float: left;
+}
+.text1{
+    width:100%;
+    margin-top: 0.5em ;
+    color: #000;
+    font-size: 18px;
+}
+.text2{
+    width:100%;
+    height:0.75rem;
+    color: #a0a0a0;
+    font-size: 12px;
+    overflow: hidden;
+}
+.text3{
+    width:100%;
+    height: 0.35rem;
+    color: #000;
+    font-size: 14px;
+    color:#666;
+    overflow: hidden;
+}
+.jieshao-bt{
+    width:100%;
+}
+.bt-l{
+    width:50%;
+    float: left;
+}
+.bt-r{
+    width:30%;
+    float: right;
+    height:1.2em;
+    border-radius: 0.6em;
+    background:#29a5db;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+
+}
+.bt-l img{
+    width:40%;
+    float: left;
+    display: block;
+    margin-top: 0.15rem ;
+
+}
+.yiread{
+    width:30%;
+    float: left;
+    font-size: 12px;
+}
+
+.jindu{
+    width:30%;
+    float: left;
+    color: #94d1e6;
+    font-size: 12px;
+}
+
+.bottom{
+    width:100%;height:1rem;
+    background:#151c2b;
+}
+.bottom-l{
+    width:2.5rem;height:1rem;
+    border-left:1px solid #717171;
+    background:#0c111a;
+    float: left;
+
+}
+.bottom-l img{
+    width:0.46rem;
+    display: block;
+    margin: 0.1rem auto auto  ;
+}
+.bottom-l span{
+    width:1rem;
+    display: block;
+    margin: 0 auto   ;
+    color: #67686a;
+    font-size: 16px;
+    text-align: center;
+}

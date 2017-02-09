@@ -1,0 +1,163 @@
+ul,li,input,body,figure,h1,h2,h3,h4,h5,h6,header,section,footer,input,p,pre{
+    margin: 0;padding:0;list-style: none;
+    font-family:"微软雅黑";
+
+}
+html{
+    font-size: 100px;
+}
+@media screen and (max-width: 375px){
+    html{
+        font-size: 50px;
+    }
+}
+img,input{
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background:#f2f2f2;
+
+}
+.box{
+    width:100%;height:2.94rem;
+    color: #fff;
+    background: #29a6dc;
+}
+.tittle-con{
+    width: 100%;height:1.5rem;
+    position: relative;
+}
+.imga{
+    width:0.6rem;
+    margin:0.7rem 0.3rem 0;
+}
+
+.sousuokuangbig1{
+    width: 5.52rem;height:1rem;
+    margin:0.5rem auto 0;
+    background: #f6f6f6;
+    border-radius: 50px;
+    position: absolute;
+    left:0;top:0;right:0;bottom: 0;
+}
+.biaoti2box{
+    width:7rem;height:1rem;
+    margin: 0 auto  ;
+
+}
+.biaoti2-top{
+    width:100%;height:0.57rem;
+    display:block;
+
+}
+.biaoti2-top div{
+    width:1.5rem;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+
+}
+.xbook{
+    width:0.3rem;
+    margin-top: 0.1rem;
+    float: left;
+}
+.caise{
+    width:0.18rem;
+    margin-top: 0.3rem   ;
+    float: left;
+}
+.biaoti2-bot{
+    width:10em;
+    float: left;
+    color: #939393;
+    font-size: 12px;
+    text-align: center;
+
+}
+.jieshao{
+    width:7.06rem;height: 2rem;
+    border-radius: 0.1875rem;
+    background:#fff;
+    margin: 0.16rem auto  0  ;
+
+}
+.shumian{
+    width:2.28rem;
+    margin-left: 0.07rem   ;
+    margin-top: 0.07rem   ;
+    margin-bottom: 0.07rem   ;
+    float: left;
+
+}
+.dian{
+    width:0.03rem;
+    margin-left: 0.1rem   ;
+    margin-right: 0.1rem   ;
+    margin-top: 0.1rem   ;
+    margin-bottom: 0.5rem   ;
+    float: left;
+    font-size: 12px;
+
+}
+.textbox{
+    width:4.4rem;
+    float: left;
+
+}
+.text1{
+    width:100%;
+    margin-top: 0.1rem ;
+    color: #000;
+    font-size: 16px;
+
+}
+.text3{
+    width:100%;
+    margin-top: 0.1rem ;
+    color: #000;
+    font-size: 14px;
+}
+.jieshao-bt{
+    width:100%;
+
+}
+.bt-l{
+    width:2.2rem;
+    float: left;
+
+}
+.bt-r{
+    width:2rem;
+    float: right;
+
+}
+.bt-l img{
+    width:0.18rem;
+    float: left;
+    display: block;
+    margin-top: 0.1rem ;
+
+}
+.bt-r img{
+    width:0.18rem;
+    float: left;
+    display: block;
+    margin-top: 0.1rem ;
+
+}
+.wenzi{
+    width:1.8rem;
+    float: left;
+    margin-top: 0.1rem ;
+    font-size: 12px;
+
+}
+
