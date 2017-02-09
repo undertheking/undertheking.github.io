@@ -1,0 +1,207 @@
+ul,li,input,body,figure{
+    margin: 0;padding:0;list-style: none;
+    font-family: "微软雅黑";
+    font-size: 12px;
+
+}
+img{
+    border:none;
+
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.topbox{
+    width: 100%;height:112px;
+    background: #fff;
+    display: flex;
+    border-bottom: 4px solid #b1b0b0;
+}
+.topbox img{
+    display: block;
+}
+.top-text{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 137px;
+    color: #9ba9ad;
+
+}
+.top-text:nth-of-type(2){
+    color: #0a0a0a;
+}
+.footbox{
+    width: 100%;height: 300px;
+    background: #2f3034;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+}
+.foot-text1{
+    margin-top: 50px;
+    margin-left: 300px;
+    color: #696a6e;
+    float: left;
+}
+.foot-text2{
+    margin-top: 50px;
+    margin-right: 300px;
+    color: #696a6e;
+    float: right;
+}
+.x-logo{
+    width: 168px;height: 136px;
+    background: url("../images/x-logo.png");
+    position: absolute;
+    left: 50%;bottom: 0;
+
+}
+.xuanze{
+    width: 100%;height: 60px;
+    margin-left: 200px;
+    float: left;
+}
+.x1{
+    margin-top: 12px;
+    width: 90px;height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    float: left;
+    background:#f8b015 ;
+    border-radius: 5px;
+    color: #fff;
+}
+.x2{
+    margin-top: 12px;
+    width: 90px;height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    float: left;
+    border-radius: 5px;
+
+}
+.nr1{
+    width: 70%;height: 350px;
+    margin-left: 200px;
+    margin-top: 35px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+.nr-t1{
+    font-size: 18px;
+}
+.nr2{
+    width: 100%;
+    margin-top: 18px;
+}
+.nr2 img{
+    display: block;
+    float: left;
+
+}
+.name{
+    color: #F8B015;
+}
+.dengji{
+    margin-top: 35px;
+    color: #EF4023;
+}
+.wenzi{
+    width:150px;height: 65px;
+    float: left;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.nr3{
+    width: 100%;height: 178px;
+    margin-left: 105px;
+
+}
+.nr3 img{
+    display: block;
+    float: left;
+}
+.nr3 pre{
+    margin-left: 40px;
+    float: left;
+    font-size: 14px;
+}
+.nr4{
+    width: 70%;
+    margin-left: 255px;
+    margin-top: 26px;
+    float: left;
+}
+.nr4 img{
+    display: block;
+}
+.xx{
+    float: left;
+}
+.num1{
+    color: #978989;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.icon{
+    float: left;
+    margin-left: 380px;
+    margin-top: 15px;
+}
+.didian{
+    float: left;
+    color: #F8B015;
+    margin-left: 6px;
+    margin-top: 15px;
+}
+.num2{
+    color: #978989;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.num3{
+    color: #978989;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.mid{
+    width: 50%;
+    margin: 0 auto;
+}
+.shu{
+    width: 26px;height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-top: 20px;
+    float: left;
+}
+.shu2{
+    width: 60px;height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-top: 20px;
+    float: left;
+    color: blue;
+}
+.shu3{
+    width: 40px;height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-top: 20px;
+    float: left;
+}

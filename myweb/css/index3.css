@@ -1,0 +1,160 @@
+ul,li,input,body,figure{
+    margin: 0;padding:0;list-style: none;
+    font-family: "微软雅黑";
+    font-size: 12px;
+
+}
+img{
+    border:none;
+
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.topbox{
+    width: 100%;height:112px;
+    background: #fff;
+    display: flex;
+    border-bottom: 4px solid #b1b0b0;
+}
+.topbox img{
+    display: block;
+}
+.top-text{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 137px;
+    color: #9ba9ad;
+
+}
+.top-text:nth-of-type(2){
+    color: #0a0a0a;
+}
+.footbox{
+    width: 100%;height: 300px;
+    background: #2f3034;
+    float: left;
+    position: relative;
+}
+.foot-text1{
+    margin-top: 50px;
+    margin-left: 300px;
+    color: #696a6e;
+    float: left;
+}
+.foot-text2{
+    margin-top: 50px;
+    margin-right: 300px;
+    color: #696a6e;
+    float: right;
+}
+.x-logo{
+    width: 168px;height: 136px;
+    background: url("../images/x-logo.png");
+    position: absolute;
+    left: 50%;bottom: 0;
+
+}
+.bannerbox{
+    width: 100%;height: 730px;
+}
+.bt{
+    width:355px;
+    margin-left: 200px;
+    float: left;
+}
+.bt1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bt2{
+    font-size: 18px;
+
+}
+.bt2:hover{
+    color: #0b6ebf;
+}
+.btupian{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.zhuti{
+    width: 100%;
+    display: block;
+}
+.shijie{
+    width: 100%;
+    display: block;
+    margin-top: 190px;
+}
+.fenlei{
+    width: 60%;height: 70px;
+    margin: 0 auto;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.fl2{
+    color: #A0649B;
+}
+.fl3{
+    color: #42c6ec;
+}
+.zhutibox{
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+.zhuti1{
+    background: url("../images/f1.png");
+    width: 206px;height: 443px;
+}
+.zhuti2{
+    width: 443px;height: 443px;
+    border: 1px solid #ccc;
+
+}
+.zhuti2 img{
+    display: block;
+}
+.zhuti-t1{
+    width: 100%;
+    font-size: 20px;
+    float: left;
+}
+.zhuti-t2{
+
+    font-size: 14px;
+    float:right;
+    color: #e61d39;
+}
+.zhuti3{
+    width: 488px;height: 443px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.zhuti3 img{
+    display: block;
+}
+.zhuti4{
+    width: 229px;height: 210px;
+    border: 1px solid #ccc;
+
+}
+.te5{
+    background: url("../images/fl7.png");
+    width: 206px;height: 443px;
+}
+.tt3{
+    margin-bottom: 100px;
+}

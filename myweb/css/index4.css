@@ -1,0 +1,88 @@
+ul,li,input,body,figure{
+    margin: 0;padding:0;list-style: none;
+    font-family: "微软雅黑";
+    font-size: 12px;
+
+}
+img{
+    border:none;
+
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.topbox{
+    width: 100%;height:112px;
+    background: #fff;
+    display: flex;
+    border-bottom: 4px solid #b1b0b0;
+}
+.topbox img{
+    display: block;
+}
+.top-text{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 137px;
+    color: #9ba9ad;
+
+}
+.top-text:nth-of-type(2){
+    color: #0a0a0a;
+}
+.footbox{
+    width: 100%;height: 300px;
+    background: #2f3034;
+    float: left;
+    position: relative;
+}
+.foot-text1{
+    margin-top: 50px;
+    margin-left: 300px;
+    color: #696a6e;
+    float: left;
+}
+.foot-text2{
+    margin-top: 50px;
+    margin-right: 300px;
+    color: #696a6e;
+    float: right;
+}
+.x-logo{
+    width: 168px;height: 136px;
+    background: url("../images/x-logo.png");
+    position: absolute;
+    left: 50%;bottom: 0;
+
+}
+.nrbox{
+    width: 100%;height: 1025px;
+    border-bottom: 4px solid #b1b0b0;
+}
+.nrt{
+    width: 100%;height: 95px;
+    line-height: 95px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.nrbox img{
+    display: block;
+    margin-left: 200px;
+}
+.hezuo{
+    width: 100%;height:570px ;
+}
+.nrt2   {
+    width: 100%;height: 100px;
+    margin-top: 45px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.hezuo img{
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
