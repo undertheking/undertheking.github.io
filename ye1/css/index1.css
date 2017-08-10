@@ -78,10 +78,12 @@ input{
 
 }
 .sousuo img{
+    display: block;
     height:50%;
     position: absolute;
-    left:1rem;top:0.2rem;
+    left:0rem;top:0.2rem;
 }
+
 .zhaohuibox{
     width:5.26rem;
     height:0.64rem;

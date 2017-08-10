@@ -312,15 +312,12 @@ body{
 }
 .back-top{
     width:100%;height:14px;
-    /*margin:0 auto;*/
     margin-top:42px;
     text-align:center;
 }
 .back-bottom{
     width:100%;height:14px;
     text-align:center;
-    /*margin:0 auto;*/
-    margin-top:15px;
 }
 .back a{
     color: #1781e8;

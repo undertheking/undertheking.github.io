@@ -66,6 +66,7 @@ img:nth-child(4){
     background: url("../images/banner2 (2).png") no-repeat center;
     background-size: cover;
     padding-top: 63px;
+
 }
 .guoqi{
     background: url("../images/guoqi.png");
@@ -80,13 +81,16 @@ img:nth-child(4){
     margin-left: 38px;
 }
 .jiantou1{
+    width: 17px;height: 28px;
     display: block;
     float: left;
     margin-left: 188px;
     cursor: pointer;
     margin-top: 35px;
+
 }
 .tu{
+    width: 153px;height: 111px;
     display: block;
     float: left;
     margin-right: 33px;
